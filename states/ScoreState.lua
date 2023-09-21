@@ -3,9 +3,9 @@ ScoreState = Class{__includes = BaseState}
 function ScoreState:init()
     self.medals = 
     {
-        ['bronze'] = love.graphics.newImage('bronze.png'),
-        ['silver'] = love.graphics.newImage('silver.png'),
-        ['gold'] = love.graphics.newImage('gold.png'),
+        ['bronze'] = love.graphics.newImage('resources/images/bronze.png'),
+        ['silver'] = love.graphics.newImage('resources/images/silver.png'),
+        ['gold'] = love.graphics.newImage('resources/images/gold.png'),
     }
 end
 

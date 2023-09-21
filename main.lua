@@ -48,19 +48,19 @@ function love.load()
 
     love.window.setTitle('Fifty Bird')
 
-    smallFont = love.graphics.newFont('recources/fonts/font.ttf', 8)
-    mediumFont = love.graphics.newFont('recources/fonts/flappy.ttf', 14)
-    flappyFont = love.graphics.newFont('recources/fonts/flappy.ttf', 28)
-    hugeFont = love.graphics.newFont('recources/fonts/flappy.ttf', 56)
+    smallFont = love.graphics.newFont('resources/fonts/font.ttf', 8)
+    mediumFont = love.graphics.newFont('resources/fonts/flappy.ttf', 14)
+    flappyFont = love.graphics.newFont('resources/fonts/flappy.ttf', 28)
+    hugeFont = love.graphics.newFont('resources/fonts/flappy.ttf', 56)
     love.graphics.setFont(flappyFont)
 
     sounds = {
-        ['jump'] = love.audio.newSource('recources/audio/jump.wav', 'static'),
-        ['explosion'] = love.audio.newSource('recources/audio/explosion.wav', 'static'),
-        ['hurt'] = love.audio.newSource('recources/audio/hurt.wav', 'static'),
-        ['score'] = love.audio.newSource('recources/audio/score.wav', 'static'),
+        ['jump'] = love.audio.newSource('resources/audio/jump.wav', 'static'),
+        ['explosion'] = love.audio.newSource('resources/audio/explosion.wav', 'static'),
+        ['hurt'] = love.audio.newSource('resources/audio/hurt.wav', 'static'),
+        ['score'] = love.audio.newSource('resources/audio/score.wav', 'static'),
 
-        ['music'] = love.audio.newSource('recources/audio/marios_way.mp3', 'static')
+        ['music'] = love.audio.newSource('resources/audio/marios_way.mp3', 'static')
     }
 
     sounds['music']:setLooping(true)
